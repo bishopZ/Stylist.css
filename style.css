@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 /* generic layout */
-
 th, th img, td, td img { vertical-align:top; } 
 
 /* always force a scrollbar in non-IE */
@@ -11,7 +10,6 @@ body { background: #e2e3e4; color: #333; padding: 0px; margin: 0px;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
 		 }
-
 
 header, footer { width:100%; }
 
@@ -72,21 +70,22 @@ ul.list li { list-style-type: none; padding: 0px; margin: 0px; }
 .right {right:0;}
 .center {left:50%;}
 .top { top:0; }
+.top100 { top:100px; }
 .top300 { top:300px; }
 .bottom { bottom:0; }
 .middle { top:50%; }
 .full {  margin: 0; height:100%; width:100%;}
 
 /* z */
-.z1 {z-index:100;}
-.z2 {z-index:200;}
-.z3 {z-index:300;}
-.z4 {z-index:400;}
-.z5 {z-index:500;}
-.z6 {z-index:600;}
-.z7 {z-index:700;}
-.z8 {z-index:800;}
-.z9 {z-index:900;}
+.z1 {z-index:1;}
+.z2 {z-index:2;}
+.z3 {z-index:3;}
+.z4 {z-index:4;}
+.z5 {z-index:5;}
+.z6 {z-index:6;}
+.z7 {z-index:7;}
+.z8 {z-index:8;}
+.z9 {z-index:9;}
 .z99, .z999, .above { z-index:9999;}
 
 
@@ -176,7 +175,7 @@ ul.wrap0 li { margin: 0px; }
 }
 
 .overlay {
-	position: fixed;	display: none;
+	position: fixed; display: none;
 	top: 0; left: 0; bottom: 0; right: 0; z-index: 1;
 }
 * html .overlay {	/* IE6 */
@@ -354,4 +353,3 @@ ul.indent { margin-left: 35px; }
 
 .gray { color: #CCC; } 
 .gray a { color: #CCC; font-weight: bold; }
-
