@@ -1,10 +1,6 @@
 Stylist.css :: An object-oriented CSS Boilerplate
 ==========
 
-Base.css
-------------
-
-Base.css is the HTML5 CSS Reset included in most boilerplates. 
 
 Style.css
 ------------
@@ -15,19 +11,23 @@ Style.css takes the idea of CSS reset, but rather than simply smoothing out the 
 
 Style.css provides an object-oriented interface to CSS by creating simple style names that add simple classes.
 
-And also includes a basic layout engine.
+And also includes HTML5 Shim and the CSS Reset. 
+
 
 Forms.css
 -------------
 
-Forms.css is a basic form style. 
+Add forms.css for basic form style. 
 
-Fonts.css
+
+Lane/Fonts.css
 -------------
 
-Lane/style.css is a custom font example. 
+Use Lane/style.css as a custom font example. 
+
 
 Layout.css
 -------------
 
-Layout.css is a grid system for css that updates with the browser width. It is taken from a basic responsive design template.
+Layout.css contains a 960 grid system for CSS that updates with the browser width. It is taken from a basic responsive design template, Skeleton V1.2 by Dave Gamache (www.getskeleton.com).
+
