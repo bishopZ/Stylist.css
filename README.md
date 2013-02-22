@@ -1,6 +1,8 @@
 Stylist.css :: An object-oriented CSS Boilerplate
 ==========
 
+version 2.0
+
 
 Style.css
 ------------
