@@ -93,6 +93,21 @@ input.file          { width:250px; }
 input.username      { width:165px; }
 input.password      { width:165px; }
 
+/* force right alignment of file button */
+input[type="file"]{
+   -webkit-appearance: none;
+   text-align: left;
+   -webkit-rtl-ordering:  left;
+}
+input[type="file"]::-webkit-file-upload-button{
+   -webkit-appearance: none;
+   float: right;
+   margin: 0 0 0 10px;
+   border: 1px solid #aaaaaa;
+   border-radius: 4px;
+   background-image: -webkit-gradient(linear, left bottom, left top, from(#d2d0d0), to(#f0f0f0));
+   background-image: -moz-linear-gradient(90deg, #d2d0d0 0%, #f0f0f0 100%);
+}
 
 input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
 input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button { -webkit-appearance: none; }
@@ -119,7 +134,8 @@ select {
 	max-width: 100%;
 	display: block;
 	margin-bottom: 20px;
-	background: #fff; }
+	background: #fff; 
+}
 
 input[type="text"]:focus,
 input[type="password"]:focus,
@@ -129,7 +145,8 @@ textarea:focus {
 	color: #444;
 	-moz-box-shadow: 0 0 3px rgba(0,0,0,.2);
 	-webkit-box-shadow: 0 0 3px rgba(0,0,0,.2);
-	box-shadow:  0 0 3px rgba(0,0,0,.2); }
+	box-shadow:  0 0 3px rgba(0,0,0,.2); 
+}
 
 
 
@@ -165,7 +182,8 @@ input[type="button"] {
   margin-bottom: 20px;
   line-height: normal;
   padding: 8px 10px;
-  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
 
 .button:hover,
 button:hover,
@@ -182,7 +200,8 @@ input[type="button"]:hover {
 	background: #ddd linear-gradient(top, rgba(255,255,255,.3) 0%,rgba(0,0,0,.3) 100%); /* W3C */
   border: 1px solid #888;
   border-top: 1px solid #aaa;
-  border-left: 1px solid #aaa; }
+  border-left: 1px solid #aaa; 
+}
 
 .button:active,
 button:active,
@@ -207,7 +226,8 @@ input[type="button"].full-width {
 	width: 100%;
 	padding-left: 0 !important;
 	padding-right: 0 !important;
-	text-align: center; }
+	text-align: center; 
+}
 
 /* Fix for odd Mozilla border & padding issues */
 button::-moz-focus-inner,

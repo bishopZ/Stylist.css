@@ -231,7 +231,8 @@
 
 /* Contain floats: h5bp.com/q */
 .clearfix:after { clear: both; }
-.clearfix { *zoom: 1; }
+.row, .clearfix { *zoom: 1; }
+* html .clearfix { height: 1%; }
 
 /* Use clearfix class on parent to clear nested columns,
 or wrap each row of columns in a <div class="row"> */
@@ -244,21 +245,9 @@ or wrap each row of columns in a <div class="row"> */
     overflow: hidden;
     visibility: hidden;
     width: 0;
-    height: 0; }
+    height: 0; 
+    font-size:0;
+}
 
 .row:after,
 .clearfix:after { clear: both; }
-
-.row,
-.clearfix { zoom: 1; }
-
-/* You can also use a <br class="clear" /> to clear columns */
-.clear {
-    clear: both;
-    display: block;
-    overflow: hidden;
-    visibility: hidden;
-    width: 0;
-    height: 0;
-}
-	
