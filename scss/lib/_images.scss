@@ -1,6 +1,9 @@
 
 /* Images */
 
+/* Correct overflow not hidden in IE9 */
+svg:not(:root) { overflow: hidden; } 
+
 hr { 
 	background-color: #c8c7c7; 
 	display: block; 

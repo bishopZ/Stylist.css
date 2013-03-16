@@ -2,9 +2,6 @@
 
 @import "bourbon/bourbon";
 
-/* Correct overflow not hidden in IE9 */
-svg:not(:root) { overflow: hidden; } 
-
 @import "lib/html5";
 
 @import "lib/display";
