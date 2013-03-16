@@ -1,0 +1,49 @@
+/* Links */
+
+a, a:active, a:visited { color:#607890; }
+a:hover { color:#036; text-decoration:underline; }
+a:focus { outline:thin dotted; background-color:#FFFFCC; }
+
+a, .noHover:hover { text-decoration:none; }
+.noHover:hover { cursor:pointer;}
+
+/* Improve readability when focused and hovered in all browsers: h5bp.com/h */
+a:hover, a:active { outline: 0; }
+
+a img { border: 0; }
+
+a.gradient {
+   position: relative;
+   padding-bottom: 6px;
+}
+
+/*
+a.gradient:hover::after {
+   content: "";
+   position: absolute;
+   bottom: 2px;
+   left: 0;
+   height: 1px;
+   width: 100%;
+   background: #444;
+   background: -webkit-gradient(linear, left top, right top, color-stop(0%,transparent), color-stop(50%,#444), color-stop(100%,transparent));
+   background: -webkit-linear-gradient(left, transparent 0%,#444 50%,transparent 100%);
+   background: -moz-linear-gradient(left, transparent 0%, #444 50%, #transparent 100%);
+   background: -ms-linear-gradient(left, transparent 0%,#444 50%,#transparent 100%);
+   background: -o-linear-gradient(left, transparent 0%,#444 50%,transparent 100%);
+   background: linear-gradient(left, transparent 0%,#444 50%,transparent 100%);
+}
+*/
+
+.hover { cursor:pointer; }
+.link { cursor: pointer; }
+
+a.disabled,
+a.disabled:hover,
+span.disabled,
+span.disabled a { color:#ccc; cursor: pointer; }
+
+/*  j.mp/webkit-tap-highlight-color */
+a:link { -webkit-tap-highlight-color: #FF5E99; } 
+
+a[href^="mailto:"]:before { content: "\2709"; }

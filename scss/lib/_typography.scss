@@ -1,0 +1,187 @@
+
+
+/* Typography */
+
+/* for readability */
+body { background: #efefef; }
+
+/* broad reset */
+html,body,address,caption,cite,code,dfn,em,strong,b,i,
+ul,ol,blockquote,q,quote,label,th,td,var,
+textarea,input,select,button,
+p,a,h1,h2,h3,h4,h5,h6 {
+	color:#444; 
+	font-size: small; font:x-small;  
+	-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased;
+    line-height: 1.4em; 
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    text-align:left; 
+    font-weight: 200; font-style: normal; 
+    text-rendering: optimizeLegibility; 
+}
+
+/* font colors */
+span,li,address,caption,cite,code,dfn,em,strong,b,i,
+blockquote,q,quote,label,th,td,var,
+textarea,input,select,button,
+p,a,h1,h2,h3,h4,h5,h6 {
+    .red { color:red; }
+	.black { color:black; }
+	.white { color:white; }
+
+	.pink { background: #EF5BA1; color: #FFF;  }
+	.pink b, .pink strong { font-size: 15px; letter-spacing: -1px; } 
+
+	.gray { color: #CCC; } 
+	.gray a { color: #CCC; font-weight: bold; }
+}
+
+/* prevents long URLs from spilling out of divs */
+.block,.comment,textarea,blockquote,label,p,td,th,h1,h2,h3,h4,h5,h6 {
+    word-wrap: break-word;
+	-ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word; /* Non standard for webkit */
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+
+ /* ====== Default spacing ====== */
+h1, h2, h3, h4, h5, h6, ul, ol, dl, p, blockquote {
+	color:#333;
+	margin:0; padding:0; 
+	margin-bottom:5px;
+	table & { margin-top:0; padding-top:0; }
+}
+h1,h2 { margin:0; padding:0; margin-top: 20px; margin-bottom: 10px;}
+h3,h4,h5,h6 { margin:0; padding:0; margin-top: 12px; margin-bottom: 10px;}
+
+/* www.aestheticallyloyal.com/public/optimize-legibility/ */ 
+h1{font-size:202%; line-height:2.8em; }
+h2{font-size:177%; line-height:2.2em; }
+h3{font-size:133%; line-height:1.8em; }
+h4{font-size:115%; line-height:1.4em; font-weight:600; color:#666; }
+h5{font-size:88%; line-height:1.2em; font-weight:800; color:#777; }
+h6{font-size:88%; line-height:1.2em; font-style: italic; }
+
+
+h1.large { font-size: 44px; line-height: 50px; } 
+h1.gradient {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+small, .small { font-size:85%; }
+.large, .big { font-size:135%; }
+
+b,strong,.strong,.bold,address,caption,cite,code,dfn,th,var { font-weight:400; }
+
+dfn, i, em, .italic, .italics { font-style:italic; }
+
+abbr,acronym  { border-bottom: 1px dotted #222;cursor: help; font-variant:normal; }
+
+cite{display:block; text-align:right; padding-top: 10px;}
+caption {font-size:13px; color:#666666; font-style:italic;padding-top:0;}
+
+ins { background: #ff9; color: #000; text-decoration: none; }
+mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
+
+/* Redeclare monospace font family: h5bp.com/j */
+pre, code, kbd, samp, tt { 
+	font-family: monospace, serif; _font-family: 'courier new', monospace; 
+	font-size:108%; line-height:100%;
+	color:#0B8C8F;
+	margin: 10px;
+}
+
+/* Improve readability of pre-formatted text in all browsers */
+pre, .pre { 
+	padding: 15px; margin:0; word-wrap: break-word; 
+	white-space: pre-wrap;       /* css-3 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+sub, sup, .sup, .sub { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup, .sup { top: -0.5em; vertical-align:text-top;}
+sub, .sub { bottom: -0.25em; vertical-align:text-bottom;}
+
+::selection { color: #fff; text-shadow: none; background-color: #fe57a1; }
+::-moz-selection { color: #fff; text-shadow: none; background: #fe57a1; }
+
+p { line-height: 150%; padding:0 0 1em 0; }
+
+p.dropcap:first-child:first-letter { float: left; color: #903; font-size: 75px; line-height: 60px; padding-top: 4px; padding-right: 8px; padding-left: 3px; font-family: Georgia; }
+
+.alignR { text-align:right; }
+.alignL { text-align:left; }
+.alignC { text-align:center; }
+
+.alignT { vertical-align:top; }
+.alignM { vertical-align:middle;  }
+.alignB { vertical-align:bottom;  }
+
+.plain { text-transform: none; }
+.upper { text-transform: uppercase; }
+.lower { text-transform: lowercase; }
+.caps { text-transform: capitalize; }
+
+.nowrap { white-space:nowrap; }
+
+.indent { margin-left: 35px; }
+
+.single p { line-height: 110%; margin:0; padding:0; }
+.double p { line-height: 220%; margin:0; padding:0; }
+
+.truncate {
+	width: 250px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.amp {
+	font-family: Baskerville, 'Goudy Old Style', Palatino, 'Book Antiqua', serif;
+	font-style: italic;
+	font-weight: normal;
+}
+
+.error {
+	color: #744;
+	font: normal 12px/20px Arial;
+	padding: 7px; margin: 0;
+}
+
+.todo {
+	font-weight:bold; color:#c00;
+	border:1px dashed #c00;
+	margin:10px; padding:5px;
+	background-color:#ffcfce;
+}
+
+.highlight { background: #CCD9E5; color: #3a3a3a;  }
+
+p.shadow, h1.shadow, h2.shadow, h3.shadow, h4.shadow, h5.shadow, h6.shadow { 
+	text-shadow: 1px 1px 1px #000; 
+}
+
+.blur {
+   color: transparent;
+   text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.detail{color: #777; font-size:11px;display:block;}
+
+.phone:before             { content: "\2706"; }
+.important:before         { content: "\27BD"; }
+.alert:before             { content: "\26A0"; }
+
+.category{font-size:108%; font-weight:normal; font-style: normal; text-transform:uppercase; color: #333;}
+.category a{color: #333;}
+
+

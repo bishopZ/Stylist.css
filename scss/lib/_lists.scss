@@ -1,0 +1,32 @@
+
+/* #Lists */
+
+dd { margin: 0 0 0 40px; }
+
+nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+
+ul, ol { margin: 1em 0; padding: 0 0 0 20px;  }
+ol li { list-style: decimal; }
+ul li { list-style: disc; }
+ol li, ul li { margin-left: 30px; }
+ul.none { list-style: none outside; }
+ul.square { list-style: square outside; }
+ul.circle { list-style: circle outside; }
+ul.disc { list-style: disc outside; }
+
+ul ul, ul ol,
+ol ol, ol ul { margin: 4px 0 5px 10px; font-size: 90%;  }
+ul ul li, ul ol li,
+ol ol li, ol ul li { margin-bottom: 6px; }
+
+li { line-height: 18px; margin-bottom: 5px; }
+li p { line-height: 21px; }
+
+ul.large li { line-height: 21px; }
+ul.inline li { display:inline; }
+ul.list { list-style-type: none; padding: 0px; margin: 0px; }
+ul.list li { list-style-type: none; padding: 0px; margin: 0px; }
+
+ul.pad0 li { padding: 0px; }
+ul.margin0 li { margin: 0px; }
+ul.indent { margin-left: 45px; }

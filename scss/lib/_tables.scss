@@ -1,0 +1,45 @@
+/* Tables */
+
+table { 
+	border-collapse: collapse; border-spacing: 0; 
+	font-size:inherit; font:100%; }
+
+th, th img, td, td img { vertical-align:top; } 
+
+th { font-weight: bold; text-align:left; }
+
+.odd { background-color:#fff; }
+.even { background-color:#eee; }
+
+table.stripe tr:nth-child(odd) { /* HTML5 only */
+   background-color: #ccc;
+}
+
+/** 
+ * Data Table 
+ * Allows you to align various table cells so that the alignment class can be placed on either the table, table row, or table cell 
+ * Cell takes precedence over table row and table
+ * Table row takes precedence over table
+ */
+table.data{position:relative; zoom:1;vertical-align: top;text-align: left; border-right:solid 1px transparent; width:100%; table-layout:fixed;}
+table.data th,table.data td{padding:3px 20px}
+
+/* horizontal alignment */
+.txtC, table .txtC, table tr .txtC{text-align:center;}
+.txtL, table .txtL, table tr .txtL{text-align:left;}
+.txtR, table .txtR, table tr .txtR{text-align:right;}
+/* vertical alignment */
+.txtT, table .txtT, table tr .txtT{vertical-align:top;}
+.txtB, table .txtB, table tr .txtB{vertical-align:bottom;}
+.txtM, table .txtM, table tr .txtM{vertical-align:middle;}
+
+/* simple table @extends data table */
+table.simple {padding: 20px; border:1px solid #AE0345;}
+table.simple th, table.simple td{border:1px solid #AE0345;}
+table.simple thead tr{background-color: #fff0f8;}
+table.simple th{color: #000; font-weight:bold}
+
+table.spec{padding:10px;border-top: 1px solid #e2e2e2; border-bottom-color:#fff; border-left:none; border-right:none;}
+table.spec th, table.spec td{border:1px solid #e2e2e2; border-width: 1px 0; padding-left:0;}
+table.spec .odd, table.spec .even{background-color: #fff;}
+

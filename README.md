@@ -1,7 +1,12 @@
-Stylist.css :: An object-oriented CSS Boilerplate
+Stylist.css :: An Object-oriented CSS Boilerplate
 ==========
 
-version 2.0
+Version 3.0
+
+The /scss folder contains the sass make files for Stylist.css and includes the Bourbon mixin set.
+
+The /css folder contains the Stylist css files for production use.
+
 
 
 Style.css
@@ -9,27 +14,30 @@ Style.css
 
 Style.css is a more stylistic reset providing a wide array of object-oriented css styles.
 
-Style.css takes the idea of CSS reset, but rather than simply smoothing out the basic styles across browsers, Style.css adds a basic set of common default styles. It takes a bit more liberty than CSS reset, but also provides a bit more style.
+Style.css includes all of CSS Reset, but more than providing cross-browser consistency, Stylist provides a base line for aesthetic sensibility on web and mobile devices.
 
-Style.css provides an object-oriented interface to CSS by creating simple style names that add simple classes.
+Stylist is an Object-oriented CSS system that adds a lot of basic easy to use CSS classes to speed CSS, HTML and Javascript development.
 
 And also includes HTML5 Shim and the CSS Reset. 
-
-
-Forms.css
--------------
-
-Add forms.css for basic form style. 
-
-
-Lane/Fonts.css
--------------
-
-Use Lane/style.css as a custom font example. 
 
 
 Layout.css
 -------------
 
 Layout.css contains a 960 grid system for CSS that updates with the browser width. It is taken from a basic responsive design template, Skeleton V1.2 by Dave Gamache (www.getskeleton.com).
+
+There are a lot of layout systems out there, so this piece is separate from the main Style.css file.
+
+
+Forms.css
+-------------
+
+Oh and it includes a complete form styling library. Kept separate for file size considerations.
+
+
+Lane/Fonts.css
+-------------
+
+Also includes a custom font example. We only include one font. Many more are available at Font Squirrel.
+
 

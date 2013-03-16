@@ -1,0 +1,38 @@
+
+/* Images */
+
+hr { 
+	background-color: #c8c7c7; 
+	display: block; 
+	height: 1px; 
+	border: 0; 
+	border-top: 1px solid #ccc; 
+	margin: 1em 0; padding: 0; 
+}
+
+hr.big {border: 5px solid #e2e2e2; border-width: 0 0 5px 0; margin: 20px 10px 10px 10px;}
+
+figure { margin: 0; }
+
+img {
+	display:block;
+	padding: 0; margin: 0;
+	border: none; outline: none;
+	line-height: 0;
+	vertical-align: top;
+	-ms-interpolation-mode: bicubic;
+}
+
+img.full { width: 100%; height: 100%; }
+img.scale { max-width: 100%; height: auto; }
+
+img.flip {
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	filter: FlipH;
+	-ms-filter: "FlipH";
+}
+
+.icon{margin-right: 5px;}
