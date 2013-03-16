@@ -7,6 +7,7 @@ The /scss folder contains the sass make files for Stylist.css and includes the B
 
 The /css folder contains the Stylist css files for production use.
 
+Special thanks to Stubornella. Version 3 integrates much of her OOCSS library, https://github.com/stubbornella/oocss.
 
 
 Style.css
