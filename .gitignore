@@ -13,5 +13,6 @@ results
 
 npm-debug.log
 
+.sass_cache
 .DS_Store
 _notes/
